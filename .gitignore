@@ -1,0 +1,43 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Competition dataset 
+Dataset_Final/
+data/**
+!data/README.md
+train/
+test/
+train.csv
+test.csv
+sample_submission.csv
+*.wav
+*.mp3
+*.flac
+
+# Derived private/intermediate artifacts
+whisper_transcripts*.jsonl
+*_acoustic_features.csv
+whisper_text_features.csv
+*_audio_metadata.csv
+artifacts/
+models/
+checkpoints/
+*.joblib
+*.pkl
+
+# Competition submissions 
+submission*.csv
+*submission*.csv

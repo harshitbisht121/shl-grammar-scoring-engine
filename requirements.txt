@@ -1,0 +1,15 @@
+# Direct dependencies for the documented notebook workflow.
+# The reference environment was a Kaggle GPU notebook; select a compatible
+# PyTorch/CUDA build for your OS/runtime if running outside Kaggle.
+numpy>=1.24,<2.3
+pandas>=2.2,<3.0
+librosa>=0.10.2,<0.12
+scipy>=1.10,<2.0
+scikit-learn>=1.4,<2.0
+matplotlib>=3.7,<4.0
+catboost>=1.2,<2.0
+tqdm>=4.66,<5.0
+kagglehub>=0.3,<1.0
+faster-whisper==1.2.1
+av==18.1.0
+torch>=2.2,<3.0
